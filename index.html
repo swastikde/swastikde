@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swastik De | Data Scientist</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">SD<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi there, I'm</p>
+      <h1 class="hero-name">Swastik De</h1>
+      <h2 class="hero-title">
+        <span class="typed-text">Data Scientist</span>
+      </h2>
+      <p class="hero-description">
+        Transforming raw data into actionable insights with 3+ years of experience in machine learning,
+        statistical modeling, and data storytelling.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll down</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-filename">portfolio.py</span>
+        </div>
+        <pre class="code-body"><code><span class="kw">import</span> pandas <span class="kw">as</span> pd
+<span class="kw">import</span> numpy <span class="kw">as</span> np
+<span class="kw">from</span> sklearn.ensemble <span class="kw">import</span> RandomForestClassifier
+
+<span class="comment"># Meet Swastik De</span>
+profile = {
+    <span class="str">"role"</span>: <span class="str">"Data Scientist"</span>,
+    <span class="str">"experience"</span>: <span class="str">"3 years"</span>,
+    <span class="str">"passion"</span>: <span class="str">"ML & AI"</span>,
+    <span class="str">"status"</span>: <span class="str">"Open to work"</span>
+}
+
+<span class="fn">print</span>(<span class="str">"Building amazing things"</span>
+      <span class="str">" with data! 🚀"</span>)
+</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-avatar">
+            <div class="avatar-initials">SD</div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">ML Models Deployed</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm a passionate <strong>Data Scientist</strong> with over 3 years of experience turning complex
+            datasets into meaningful insights. I specialize in building end-to-end machine learning pipelines,
+            predictive models, and data-driven solutions that make a real business impact.
+          </p>
+          <p>
+            My work spans across industries including finance, healthcare, and e-commerce — where I've applied
+            techniques like <strong>natural language processing</strong>, <strong>computer vision</strong>,
+            and <strong>time-series forecasting</strong> to solve real-world problems.
+          </p>
+          <p>
+            When I'm not wrangling data, I enjoy contributing to open-source projects, writing
+            technical blog posts, and staying up to date with the latest research in AI/ML.
+          </p>
+          <div class="about-links">
+            <a href="https://github.com/swastikde" target="_blank" rel="noopener" class="social-link github" aria-label="Visit GitHub profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/swastikde" target="_blank" rel="noopener" class="social-link linkedin" aria-label="Visit LinkedIn profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <!-- Replace swastikde@example.com with your actual email address before deploying -->
+            <a href="mailto:swastikde@example.com" class="social-link email" aria-label="Send email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+      <p class="section-subtitle">Technologies and tools I work with every day</p>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">🐍</span> Languages
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Python</span>
+            <span class="skill-tag primary">SQL</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">Bash</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">🤖</span> Machine Learning
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Scikit-Learn</span>
+            <span class="skill-tag primary">TensorFlow</span>
+            <span class="skill-tag primary">PyTorch</span>
+            <span class="skill-tag">XGBoost</span>
+            <span class="skill-tag">LightGBM</span>
+            <span class="skill-tag">Keras</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">📊</span> Data & Analytics
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Pandas</span>
+            <span class="skill-tag primary">NumPy</span>
+            <span class="skill-tag primary">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+            <span class="skill-tag">Plotly</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Tableau</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">☁️</span> Cloud & MLOps
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">AWS</span>
+            <span class="skill-tag">Azure ML</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">MLflow</span>
+            <span class="skill-tag">Airflow</span>
+            <span class="skill-tag">FastAPI</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">🗄️</span> Databases
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">PostgreSQL</span>
+            <span class="skill-tag primary">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">BigQuery</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">🔧</span> Tools & Workflow
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Git</span>
+            <span class="skill-tag primary">Jupyter</span>
+            <span class="skill-tag">VSCode</span>
+            <span class="skill-tag">DVC</span>
+            <span class="skill-tag">GitHub Actions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      <p class="section-subtitle">A selection of my most impactful data science work</p>
+      <div class="projects-grid">
+
+        <article class="project-card featured">
+          <div class="project-card-header">
+            <div class="project-icon">🧠</div>
+            <div class="project-links">
+              <a href="https://github.com/swastikde" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Customer Churn Prediction</h3>
+          <p class="project-description">
+            Built an end-to-end ML pipeline to predict customer churn for a telecom company.
+            Achieved 92% accuracy using gradient boosting with feature engineering and SHAP explanations.
+            Deployed as a REST API serving real-time predictions.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>XGBoost</span><span>SHAP</span><span>FastAPI</span><span>Docker</span>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-card-header">
+            <div class="project-icon">💬</div>
+            <div class="project-links">
+              <a href="https://github.com/swastikde" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">NLP Sentiment Analysis Engine</h3>
+          <p class="project-description">
+            Developed a multi-class sentiment analysis system for product reviews using BERT fine-tuning.
+            Processed 1M+ reviews with 89% F1-score. Includes an interactive dashboard for
+            real-time sentiment monitoring.
+          </p>
+          <div class="project-tags">
+            <span>PyTorch</span><span>BERT</span><span>HuggingFace</span><span>Streamlit</span><span>PostgreSQL</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon">📈</div>
+            <div class="project-links">
+              <a href="https://github.com/swastikde" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Time Series Sales Forecasting</h3>
+          <p class="project-description">
+            Built a hybrid forecasting model combining ARIMA and LSTM for retail sales prediction.
+            Reduced MAPE by 18% compared to the existing baseline, helping optimize inventory management.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>LSTM</span><span>ARIMA</span><span>TensorFlow</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon">🏥</div>
+            <div class="project-links">
+              <a href="https://github.com/swastikde" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Medical Image Classification</h3>
+          <p class="project-description">
+            Developed a CNN model using transfer learning (ResNet-50) to classify chest X-rays for
+            pneumonia detection. Achieved 94% AUC-ROC with an explainability layer using Grad-CAM.
+          </p>
+          <div class="project-tags">
+            <span>PyTorch</span><span>ResNet-50</span><span>Grad-CAM</span><span>OpenCV</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon">🛒</div>
+            <div class="project-links">
+              <a href="https://github.com/swastikde" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Recommendation System</h3>
+          <p class="project-description">
+            Built a collaborative + content-based hybrid recommendation engine for an e-commerce platform.
+            Improved click-through rate by 23% and increased average order value using matrix factorization and embeddings.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>Collaborative Filtering</span><span>Embeddings</span><span>Spark</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon">💰</div>
+            <div class="project-links">
+              <a href="https://github.com/swastikde" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Fraud Detection System</h3>
+          <p class="project-description">
+            Designed a real-time fraud detection pipeline for financial transactions using ensemble models
+            and anomaly detection. Reduced false positive rates by 35% while maintaining high recall.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>Isolation Forest</span><span>LightGBM</span><span>Kafka</span>
+          </div>
+        </article>
+
+      </div>
+      <div class="projects-more">
+        <a href="https://github.com/swastikde" target="_blank" rel="noopener" class="btn btn-outline">
+          View All Projects on GitHub →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Senior Data Scientist</h3>
+              <span class="timeline-date">2023 – Present</span>
+            </div>
+            <p class="timeline-company">Tech Company · Full-time</p>
+            <ul class="timeline-details">
+              <li>Led a team of 4 data scientists to build predictive models that drove $2M in additional revenue</li>
+              <li>Architected end-to-end MLOps pipelines using MLflow, Airflow, and AWS SageMaker</li>
+              <li>Mentored junior data scientists and established best practices for model development</li>
+              <li>Collaborated with product and engineering teams to deploy ML models serving 500K+ users</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>AWS</span><span>MLflow</span><span>TensorFlow</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Data Scientist</h3>
+              <span class="timeline-date">2022 – 2023</span>
+            </div>
+            <p class="timeline-company">Analytics Firm · Full-time</p>
+            <ul class="timeline-details">
+              <li>Built NLP models for document classification and information extraction from unstructured data</li>
+              <li>Developed A/B testing framework and statistical analysis pipelines for product experiments</li>
+              <li>Created interactive dashboards using Plotly and Power BI for stakeholder reporting</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>NLP</span><span>PyTorch</span><span>Power BI</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Junior Data Analyst</h3>
+              <span class="timeline-date">2021 – 2022</span>
+            </div>
+            <p class="timeline-company">Startup · Full-time</p>
+            <ul class="timeline-details">
+              <li>Performed exploratory data analysis and statistical modeling on customer behavior data</li>
+              <li>Built automated ETL pipelines to consolidate data from multiple sources</li>
+              <li>Delivered weekly data-driven insights to the business team through clear visualizations</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>SQL</span><span>Pandas</span><span>Tableau</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="education-section">
+        <h3 class="subsection-title">Education</h3>
+        <div class="education-cards">
+          <div class="education-card">
+            <div class="education-icon">🎓</div>
+            <div>
+              <h4>B.Tech / M.Tech in Computer Science / Data Science</h4>
+              <p>University · 2017 – 2021</p>
+            </div>
+          </div>
+          <div class="education-card">
+            <div class="education-icon">📜</div>
+            <div>
+              <h4>AWS Certified Machine Learning – Specialty</h4>
+              <p>Amazon Web Services · 2022</p>
+            </div>
+          </div>
+          <div class="education-card">
+            <div class="education-icon">📜</div>
+            <div>
+              <h4>Deep Learning Specialization</h4>
+              <p>Coursera / DeepLearning.AI · 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      <p class="section-subtitle">
+        I'm currently open to new opportunities. Whether you have a project in mind,
+        want to collaborate, or just say hi — my inbox is always open!
+      </p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:swastikde@example.com">swastikde@example.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <a href="https://github.com/swastikde" target="_blank" rel="noopener">github.com/swastikde</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/swastikde" target="_blank" rel="noopener">linkedin.com/in/swastikde</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <a href="mailto:swastikde@example.com" class="btn btn-primary btn-large">Say Hello 👋</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Designed &amp; Built by <strong>Swastik De</strong></p>
+      <p class="footer-sub">Data Scientist · Open to Opportunities</p>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky navbar
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('open');
+    }
+
+    // Close menu on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.remove('open');
+      });
+    });
+
+    // Smooth reveal on scroll — only hide elements below the fold
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+      document.querySelectorAll('.project-card, .timeline-item, .skill-category').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        // Only apply fade-in to elements below the current viewport
+        if (rect.top > window.innerHeight) {
+          el.classList.add('fade-in');
+          observer.observe(el);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
