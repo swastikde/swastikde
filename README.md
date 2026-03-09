@@ -2,7 +2,10 @@
 
 ### 🧠 Data Scientist | ML Engineer | AI Enthusiast
 
-I'm a passionate **Data Scientist** with 3+ years of experience turning complex datasets into meaningful insights and production-ready ML solutions. I specialize in building end-to-end machine learning pipelines, predictive models, and data-driven products that create real business impact.
+**Data Scientist** with 3+ years of experience building end-to-end analytics and forecasting solutions across retail,
+agriculture, and life sciences. Strong expertise in time series forecasting, statistical modeling, machine learning, and
+data engineering using Python, SQL, and cloud platforms. Experienced in translating business problems into
+scalable data products and decision-support dashboards.
 
 ---
 
