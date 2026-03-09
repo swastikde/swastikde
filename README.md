@@ -65,8 +65,8 @@ I'm a passionate **Data Scientist** with 3+ years of experience turning complex 
 ## 📊 GitHub Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=swastikde&show_icons=true&theme=tokyonight&hide_border=true" alt="Swastik's GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=swastikde&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
+  <img src="https://github-readme-stats.vercel.app/api?username=swastikde&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Swastik's GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=swastikde&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top Languages">
 </p>
 
 ---
