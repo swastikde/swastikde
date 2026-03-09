@@ -63,7 +63,7 @@ I'm a passionate **Data Scientist** with 3+ years of experience turning complex 
 ---
 ## 📊GitHub Stats
 
-![Swastiks's GitHub stats](https://github-readme-stats.vercel.app/api?username=swastikde&show_icons=true&theme=radical)
+![Activity Graph](https://stats.pphat.top/graph?username=swastikde&theme=aurora&animate=pulse)
 
 ---
 
