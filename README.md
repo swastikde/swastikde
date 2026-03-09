@@ -18,7 +18,13 @@ I'm a passionate **Data Scientist** with 3+ years of experience turning complex 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Summary
+
+![GitHub Stats](https://stats.pphat.top/stats?username=swastikde&avatar_mode=radar)
+![Total Stars](https://stats.pphat.top/badge/total-stars?username=swastikde)
+![Followers](https://stats.pphat.top/badge/followers?username=swastikde)
+![Repositories](https://stats.pphat.top/badge/repositories?username=swastikde)
+![Total Commits](https://stats.pphat.top/badge/total-commits?username=swastikde)
 
 **Languages**
 
