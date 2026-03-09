@@ -16,11 +16,13 @@
       <a href="#hero" class="nav-logo">SD<span class="accent">.</span></a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode" onclick="toggleTheme()">🌙</button>
       <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">&#9776;</button>
     </div>
   </nav>
@@ -127,6 +129,20 @@ profile = {
               Email
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Resume</span></h2>
+      <p class="section-subtitle">View or download my professional resume</p>
+      <div class="resume-wrapper">
+        <iframe src="Swastik_Resume.pdf" class="resume-viewer" title="Swastik De Resume"></iframe>
+        <div class="resume-download">
+          <a href="Swastik_Resume.pdf" download class="btn btn-primary">📄 Download Resume</a>
         </div>
       </div>
     </div>
@@ -498,6 +514,37 @@ profile = {
   </footer>
 
   <script>
+    // Scroll to top on page load
+    window.addEventListener('load', () => {
+      window.scrollTo(0, 0);
+    });
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+
+    // Dark / Light mode toggle
+    function toggleTheme() {
+      const html = document.documentElement;
+      const btn = document.getElementById('themeToggle');
+      if (html.getAttribute('data-theme') === 'light') {
+        html.removeAttribute('data-theme');
+        btn.textContent = '🌙';
+        localStorage.setItem('theme', 'dark');
+      } else {
+        html.setAttribute('data-theme', 'light');
+        btn.textContent = '☀️';
+        localStorage.setItem('theme', 'light');
+      }
+    }
+    // Restore saved theme
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.getElementById('themeToggle').textContent = '☀️';
+      }
+    })();
+
     // Sticky navbar
     window.addEventListener('scroll', () => {
       const navbar = document.getElementById('navbar');
