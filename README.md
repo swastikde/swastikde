@@ -2,59 +2,62 @@
 
 ### 🧠 Data Scientist | ML Engineer | AI Enthusiast
 
-**Data Scientist** with 3+ years of experience building end-to-end analytics and forecasting solutions across retail,
-agriculture, and life sciences. Strong expertise in time series forecasting, statistical modeling, machine learning, and
-data engineering using Python, SQL, and cloud platforms. Experienced in translating business problems into
-scalable data products and decision-support dashboards.
+Data Scientist with 3+ years of experience in machine learning, advanced analytics, and real-world business problem solving across life sciences and digital health.
 
 ---
 
 ## 🚀 About Me
 
-- 🔭 Currently working on **large-scale ML pipelines** and **LLM fine-tuning**
-- 🌱 Exploring **MLOps**, **Generative AI**, and **Causal Inference**
-- 👯 Looking to collaborate on **open-source ML / data science projects**
-- 💬 Ask me about **Python · Machine Learning · NLP · Deep Learning · SQL**
-- 📫 Reach me at: **[swastikde@example.com](mailto:swastikde@example.com)**
-- 🌐 Portfolio: **[swastikde.github.io](https://swastikde.github.io/swastikde)**
-- ⚡ Fun fact: I can explain gradient descent with a coffee cup analogy ☕
+- 🔭 Currently working on large-scale ML pipelines and production analytics
+- 🌱 Exploring MLOps, Generative AI, and advanced experimentation
+- 👯 Open to collaborating on impactful data science projects
+- 💬 Ask me about Python · ML · NLP · Statistics · SQL
+- 🌐 Portfolio: [swastikde.github.io](https://swastikde.github.io/swastikde)
 
 ---
 
-## 🛠️ Tech Summary
+## 🛠️ Technical Skills
 
-![GitHub Stats](https://stats.pphat.top/stats?username=swastikde&avatar_mode=radar)
-![Total Stars](https://stats.pphat.top/badge/total-stars?username=swastikde)
-![Followers](https://stats.pphat.top/badge/followers?username=swastikde)
-![Repositories](https://stats.pphat.top/badge/repositories?username=swastikde)
-![Total Commits](https://stats.pphat.top/badge/total-commits?username=swastikde)
+### Languages
+Python · SQL · R · PowerBI · Tableau · AWS-Quicksight · Excel
 
-**Languages**
+### Machine Learning
+Scikit-Learn · Classification · Regression · XGBoost · LightGBM · Keras
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+### Data & Analytics
+Pandas · NumPy · Matplotlib · Seaborn · Plotly · Power BI · Tableau
 
-**Machine Learning & Deep Learning**
+### Cloud & MLOps
+AWS · Azure ML · Docker · MLflow · Airflow · FastAPI
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189BCC?style=for-the-badge&logo=xgboost&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+### Databases
+Snowflake · MySQL · MongoDB · Redis · BigQuery
 
-**Data & Visualization**
+### Tools & Workflow
+Git · Jupyter · VSCode · DVC · GitHub Actions
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+---
 
-**Cloud & MLOps**
+## 💼 Work Experience
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+### Data Scientist-II | Nihilent (Full-time)
+**2025 (January) – Present**
+- Led a team of 4 data scientists to build predictive models that drove $2M in additional revenue
+- Architected end-to-end MLOps pipelines using MLflow, Airflow, and AWS SageMaker
+- Mentored junior data scientists and established best practices for model development
+- Collaborated with product and engineering teams to deploy ML models serving 500K+ users
+
+### RWE Data Science-Associate Consultant | Trinity Life Sciences (Full-time)
+**2024 (January) – 2024 (December)**
+- Built a Geocoding API–based fuzzy matching algorithm reducing manual effort by 90%
+- Automated statistical testing workflows, reducing analysis effort by 80%
+- Delivered analytics and modeling across HCP targeting, epidemiology, HCRU, LOT, market landscape, and patient flow
+- Worked with MarketScan, Medicare, and Medicaid data for HEOR and outcomes research studies
+
+### Junior Data Analyst | Wysa (Full-time)
+**2022 (October) – 2024 (January)**
+- Built engagement, retention, and efficacy analyses using survival models and statistical testing
+- Contributed to a World Economic Forum–published research paper on AI mental health chatbot efficacy
 
 ---
 
@@ -64,25 +67,14 @@ scalable data products and decision-support dashboards.
 |---|---|---|
 | 🧠 **Customer Churn Prediction** | End-to-end ML pipeline with 92% accuracy, deployed as REST API | XGBoost · SHAP · FastAPI · Docker |
 | 💬 **NLP Sentiment Analysis Engine** | BERT-based multi-class classifier on 1M+ reviews, 89% F1 | PyTorch · HuggingFace · Streamlit |
-| 📈 **Time Series Sales Forecasting** | Hybrid ARIMA+LSTM model, reduced MAPE by 18% | TensorFlow · Prophet · SQL |
+| 📈 **Time Series Sales Forecasting** | Hybrid ARIMA+LSTM model, reduced MAPE by 18% | TensorFlow · ARIMA · LSTM |
 | 🏥 **Medical Image Classification** | ResNet-50 transfer learning for chest X-ray detection, 94% AUC | PyTorch · Grad-CAM · OpenCV |
-| 🛒 **Recommendation System** | Hybrid collaborative + content-based engine, +23% CTR | Spark · Embeddings · PostgreSQL |
+| 🛒 **Recommendation System** | Hybrid collaborative + content-based engine, +23% CTR | Spark · Embeddings · Collaborative Filtering |
 | 💰 **Fraud Detection System** | Real-time anomaly detection, -35% false positive rate | LightGBM · Isolation Forest · Kafka |
-
----
-## 📊GitHub Stats
-
-![Activity Graph](https://stats.pphat.top/graph?username=swastikde&theme=aurora&animate=pulse)
 
 ---
 
 ## 🌐 Portfolio Website
 
-> 🔗 **[View Full Portfolio →](https://swastikde.github.io/swastikde)**  
-> Built with HTML & CSS · Hosted on GitHub Pages
-
----
-
-<p align="center">
-  <em>"Data is the new oil — I'm the refinery."</em>
-</p>
+🔗 **[View Full Portfolio →](https://swastikde.github.io/swastikde)**  
+Built with HTML & CSS · Hosted on GitHub Pages
