@@ -1,63 +1,60 @@
 # Hi there, I'm Swastik De 👋
 
-### 🧠 Data Scientist | ML Engineer | AI Enthusiast
+### 🧠 Data Scientist | ML Engineer | Analytics Consultant
 
-Data Scientist with 3+ years of experience in machine learning, advanced analytics, and real-world business problem solving across life sciences and digital health.
+Highly motivated and action-oriented Data Scientist with 3.5+ years of experience delivering end-to-end analytics and data science solutions across retail and life sciences.
 
 ---
 
 ## 🚀 About Me
 
-- 🔭 Currently working on large-scale ML pipelines and production analytics
-- 🌱 Exploring MLOps, Generative AI, and advanced experimentation
+- 🔭 Currently working on production ML systems at Nihilent
+- 🌱 Exploring Generative AI and scalable MLOps workflows
 - 👯 Open to collaborating on impactful data science projects
-- 💬 Ask me about Python · ML · NLP · Statistics · SQL
+- 💬 Ask me about Python · Statistics · Time Series · ML · SQL
 - 🌐 Portfolio: [swastikde.github.io](https://swastikde.github.io/swastikde)
 
 ---
 
 ## 🛠️ Technical Skills
 
-### Languages
-Python · SQL · R · PowerBI · Tableau · AWS-Quicksight · Excel
+### Course Work
+Regression · Classification · Time Series Analysis · Statistical Analysis · Hypothesis Testing
 
-### Machine Learning
-Scikit-Learn · Classification · Regression · XGBoost · LightGBM · Keras
+### Languages & BI
+Python · R-Programming · SQL · MongoDB · Tableau · PowerBI · AWS-Quicksight · Excel · LaTeX
 
-### Data & Analytics
-Pandas · NumPy · Matplotlib · Seaborn · Plotly · Power BI · Tableau
+### Machine Learning & AI
+Scikit-Learn · Logistic Regression · Random Forest · XGBoost · Deep Learning · Generative AI
 
-### Cloud & MLOps
-AWS · Azure ML · Docker · MLflow · Airflow · FastAPI
+### Data Science & Statistics
+Survival Analysis · Cox Proportional Hazards · Kaplan-Meier · ANOVA · Chi-Square · Ordinal Logistic Regression
 
-### Databases
-Snowflake · MySQL · MongoDB · Redis · BigQuery
-
-### Tools & Workflow
-Git · Jupyter · VSCode · DVC · GitHub Actions
+### Cloud & Developer Tools
+AWS · SageMaker AI · S3 · Snowflake · Google Cloud Platform · Docker · GitHub · VS Code
 
 ---
 
 ## 💼 Work Experience
 
 ### Data Scientist-II | Nihilent (Full-time)
-**2025 (January) – Present**
-- Led a team of 4 data scientists to build predictive models that drove $2M in additional revenue
-- Architected end-to-end MLOps pipelines using MLflow, Airflow, and AWS SageMaker
-- Mentored junior data scientists and established best practices for model development
-- Collaborated with product and engineering teams to deploy ML models serving 500K+ users
+**Jan 2025 – Present**
+- Delivered end-to-end analytics and ML solutions, from requirement gathering to scalable AWS SageMaker deployment
+- Built a State–Business Line–SKU level demand forecasting pipeline using ADI/CV2 classification and iterative model selection
+- Developed dealer churn prediction and detection using logistic regression, recency, frequency, and sales trend features
+- Built and productionized a hybrid product recommendation system contributing ~10% monthly secondary sales across 55K dealers
 
-### RWE Data Science-Associate Consultant | Trinity Life Sciences (Full-time)
-**2024 (January) – 2024 (December)**
-- Built a Geocoding API–based fuzzy matching algorithm reducing manual effort by 90%
+### Associate Consultant – RWE Data Science | Trinity Life Sciences (Full-time)
+**Jan 2024 – Dec 2024**
+- Built a geocoding API–based fuzzy matching algorithm that reduced manual effort by 90%
 - Automated statistical testing workflows, reducing analysis effort by 80%
-- Delivered analytics and modeling across HCP targeting, epidemiology, HCRU, LOT, market landscape, and patient flow
-- Worked with MarketScan, Medicare, and Medicaid data for HEOR and outcomes research studies
+- Delivered analytics across HCP targeting, epidemiology, HCRU, LOT, market landscape, and patient flow
+- Authored statistical manuscripts using ordinal logistic regression, chi-square tests, ANOVA, and survival models
 
-### Junior Data Analyst | Wysa (Full-time)
-**2022 (October) – 2024 (January)**
-- Built engagement, retention, and efficacy analyses using survival models and statistical testing
-- Contributed to a World Economic Forum–published research paper on AI mental health chatbot efficacy
+### Junior Data Analyst – Data Science | Wysa (Full-time)
+**Jun 2022 – Dec 2024**
+- Developed engagement, retention, and efficacy analyses for B2C/B2B clients using survival and time-trend methods
+- Supported an employee mental health research initiative published by the World Economic Forum
 
 ---
 
@@ -65,12 +62,12 @@ Git · Jupyter · VSCode · DVC · GitHub Actions
 
 | Project | Description | Stack |
 |---|---|---|
-| 🧠 **Customer Churn Prediction** | End-to-end ML pipeline with 92% accuracy, deployed as REST API | XGBoost · SHAP · FastAPI · Docker |
-| 💬 **NLP Sentiment Analysis Engine** | BERT-based multi-class classifier on 1M+ reviews, 89% F1 | PyTorch · HuggingFace · Streamlit |
-| 📈 **Time Series Sales Forecasting** | Hybrid ARIMA+LSTM model, reduced MAPE by 18% | TensorFlow · ARIMA · LSTM |
-| 🏥 **Medical Image Classification** | ResNet-50 transfer learning for chest X-ray detection, 94% AUC | PyTorch · Grad-CAM · OpenCV |
-| 🛒 **Recommendation System** | Hybrid collaborative + content-based engine, +23% CTR | Spark · Embeddings · Collaborative Filtering |
-| 💰 **Fraud Detection System** | Real-time anomaly detection, -35% false positive rate | LightGBM · Isolation Forest · Kafka |
+| 📈 **Demand Forecasting Engine** | Built SKU-level forecasting with ADI/CV2 demand segmentation and model selection | Random Forest · XGBoost · Croston · N-BEATS · N-HiTS |
+| ⚠️ **Dealer Churn Prediction** | Created churn detection framework with logistic regression and rule-based risk classification | Logistic Regression · Python · Feature Engineering |
+| 🛒 **Hybrid Recommendation System** | Productionized collaborative + clustering recommender supporting cross-sell and upsell | Collaborative Filtering · Clustering · AWS |
+| 📍 **Geocoding Fuzzy Matcher** | Built API-driven fuzzy address matching system with 90% manual effort reduction | Geocoding API · Python · Data Processing |
+| 💳 **Credit Risk Model** | Developed PD, LGD, EAD models and expected loss estimation workflow | Python · Scikit-learn · Regression |
+| 🧪 **Statistical Manuscript Analytics** | Delivered healthcare insights using robust statistical methods for life sciences use cases | ANOVA · Survival Analysis · Chi-Square |
 
 ---
 
